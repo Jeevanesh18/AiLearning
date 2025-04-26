@@ -1,1 +1,2 @@
 # AiLearning
+Its a simple website that teaches you english. I connected the web to gemini and then i feed gemini with a dataset that contains the data of a curriculum which specifies some concepts and its levels. As an example, 'a/an concept' is beginner. So the AI will ask you questions and know your current level and starts teaching from it. It will also ask questions to make sure your understanding is good. I also added a progress tracker that tells you what level you are, what topic has covered and what remaining.
