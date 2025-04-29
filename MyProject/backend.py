@@ -20,7 +20,7 @@ data = pd.read_csv("EnglishData.csv")  # <-- make sure this file exists
 
 # Create the knowledge base
 knowledge_base = ""
-for _, row in data.iterrows():
+for _, row in data.iterrows():j
     knowledge_base += f"Level: {row['Level']}\n"
     knowledge_base += f"Topic: {row['Topic']}\n"
     knowledge_base += f"Explanation: {row['Explanation']}\n"
@@ -29,7 +29,7 @@ for _, row in data.iterrows():
     knowledge_base += f"Common Mistakes: {row['Common Mistakes']}\n\n"
 
 # Setup Gemini
-genai.configure(api_key="AIzaSyCKi7OBhlpyzOJuWHcd_Hn3PPNNaU61Czs")  # Put your real Gemini API key here
+genai.configure(api_key="YOUR API KEY")  # Put your real Gemini API key here
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Start chat
